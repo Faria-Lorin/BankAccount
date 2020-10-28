@@ -13,39 +13,39 @@ public class Tester{
     System.out.println("\nNew Password:");
     System.out.println(nimh.getPassword());
     nimh.deposit(100000.59);
-    System.out.println("\nACCOUNT:        CURRENT BALANCE:");
+    System.out.println("\nACCOUNT:" + "\t" + "CURRENT BALANCE:");
     System.out.println(nimh.toString());
     nimh.withdraw(7657.98);
-    System.out.println("\nACCOUNT:        CURRENT BALANCE:");
+    System.out.println("\nACCOUNT:" + "\t" + "CURRENT BALANCE:");
     System.out.println(nimh.toString());
 
     /* test differnt true/false values of deposit
     System.out.println("\n"+nimh.deposit(-100));
-    System.out.println("ACCOUNT:        CURRENT BALANCE:");
+    System.out.println("ACCOUNT:" + "\t" + "CURRENT BALANCE:");
     System.out.println(nimh.toString());
     System.out.println("\n"+nimh.deposit(0));
-    System.out.println("ACCOUNT:        CURRENT BALANCE:");
+    System.out.println("ACCOUNT:" + "\t" + "CURRENT BALANCE:");
     System.out.println(nimh.toString());
     System.out.println("\n"+nimh.deposit(106));
-    System.out.println("ACCOUNT:        CURRENT BALANCE:");
+    System.out.println("ACCOUNT:" + "\t" + "CURRENT BALANCE:");
     System.out.println(nimh.toString());
     System.out.println("\n"+nimh.deposit(72.817));
-    System.out.println("ACCOUNT:        CURRENT BALANCE:");
+    System.out.println("ACCOUNT:" + "\t" + "CURRENT BALANCE:");
     System.out.println(nimh.toString());
     */
 
     /* test differnt true/false values of withdraw
     System.out.println("\n"+nimh.withdraw(-17));
-    System.out.println("ACCOUNT:        CURRENT BALANCE:");
+    System.out.println("ACCOUNT:" + "\t" + "CURRENT BALANCE:");
     System.out.println(nimh.toString());
     System.out.println("\n"+nimh.withdraw(0));
-    System.out.println("ACCOUNT:        CURRENT BALANCE:");
+    System.out.println("ACCOUNT:" + "\t" + "CURRENT BALANCE:");
     System.out.println(nimh.toString());
     System.out.println("\n"+nimh.withdraw(23));
-    System.out.println("ACCOUNT:        CURRENT BALANCE:");
+    System.out.println("ACCOUNT:" + "\t" + "CURRENT BALANCE:");
     System.out.println(nimh.toString());
     System.out.println("\n"+nimh.withdraw(57.89));
-    System.out.println("ACCOUNT:        CURRENT BALANCE:");
+    System.out.println("ACCOUNT:" + "\t" + "CURRENT BALANCE:");
     System.out.println(nimh.toString());
     */
 
