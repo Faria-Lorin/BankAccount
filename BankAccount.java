@@ -8,4 +8,8 @@ public class BankAccount{
     password = p;
     balance = 0;
   }
+
+  public String toString(){
+    return ("Balance:" + balance + "\n" + "AccountID:" + accountID);
+  }
 }
