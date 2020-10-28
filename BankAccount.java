@@ -9,8 +9,12 @@ public class BankAccount{
     balance = 0;
   }
 
-  public String toString(){
-    return ("Balance:" + balance + "\n" + "AccountID:" + accountID);
+  public double getBalance(){
+    return (balance);
+  }
+
+  public int getAccountID(){
+    return (accountID);
   }
 
   public boolean deposit(double amount){
