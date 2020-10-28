@@ -1,4 +1,5 @@
 public class BankAccount{
+
   private double balance;
   private int accountID;
   private String password;
@@ -15,6 +16,14 @@ public class BankAccount{
 
   public int getAccountID(){
     return (accountID);
+  }
+
+  public String getPassword(){
+    return (password);
+  }
+
+  public void setPassword(String newPass){
+    password = newPass;
   }
 
   public boolean deposit(double amount){
@@ -40,5 +49,9 @@ public class BankAccount{
       balance = balance - amount;
     }
     return success;
+  }
+
+  public String toString(){
+    return (accountID + "\t" + balance);
   }
 }
