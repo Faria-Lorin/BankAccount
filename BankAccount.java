@@ -4,6 +4,21 @@ public class BankAccount{
   private int accountID;
   private String password;
 
+  private boolean authenticate(String password){
+    return this.password.equals(password);
+  }
+
+  public boolean transferTo(BankAccount other, double amount, String password){
+    if (authenticate(password) && withdraw(amount)){
+    if (other.deposit(amount)){
+      System.out.println("Transfer Successful!");
+      return true;
+      }
+    }
+    System.out.println("Transfer Failed!");
+    return false;
+  }
+
   public BankAccount (int a, String p){
     accountID = a;
     password = p;
